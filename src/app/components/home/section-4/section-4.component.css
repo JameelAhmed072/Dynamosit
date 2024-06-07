@@ -1,0 +1,32 @@
+.container{
+  background-color: #2b354f;
+  padding: 40px;
+  border-radius: 5px;
+  /* width: fit-content; */
+}
+.quality{
+
+  display: inline-block;
+  margin-bottom: 70px;
+  background-color: #4c5466;
+  padding: 15px; /* Optional: Add some padding to create space between text and background */
+  border-radius: 5px;
+
+}
+
+.inside{
+  text-align: center;
+  color: #fff;
+}
+.paragraph p{
+  width: 70%;
+  margin: 0 auto; /* This centers the element horizontally */
+  text-align: center; /* This centers the text within the element */
+  margin-bottom: 25px;
+  color: #fff;
+  line-height: 2.4;
+}
+.paragraph{
+  text-align: center;
+  margin-bottom: 55px;
+}

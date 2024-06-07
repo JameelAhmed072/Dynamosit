@@ -1,0 +1,22 @@
+.second{
+  margin-top: 250px;
+}
+.sec-quote{
+  text-align: center;
+  font-size: 40px;
+  font-family: Open Sans;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+  margin-left: 80px;
+
+}
+.card-container {
+  flex: 0 0 calc(33.33% - 1px); /* Adjust width to fit 3 cards with margin */
+  margin-bottom: 20px; /* Optional margin between rows */
+}
+

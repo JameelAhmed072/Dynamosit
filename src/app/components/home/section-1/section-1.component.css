@@ -1,0 +1,21 @@
+.first {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 250px;
+}
+
+.quote{
+  font-size: 50px;
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-family: Seymour One;
+
+}
+.view-services p{
+  width: 40%;
+  margin: 0 auto; /* This centers the element horizontally */
+  text-align: center; /* This centers the text within the element */
+  margin-bottom: 25px;
+}

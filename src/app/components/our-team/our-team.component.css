@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+  margin-top: 75px;
+}
+.container h2 {
+  max-width: 70%;
+  text-align: center;
+  justify-content: center;
+  margin: 5px auto;
+  font-size: 50px;
+  margin-bottom: 53px;
+}
+
+.para {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.serv {
+  display: inline-block;
+  margin-bottom: 50px;
+  color:  blue;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  padding: 15px; /* Optional: Add some padding to create space between text and background */
+}
+.section-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.team{
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-member {
+  width: 25%; /* Adjust width as needed */
+  padding: 20px;
+  box-sizing: border-box;
+}
+.team-detail-container{
+  margin: 10px 50px;
+  width: 90%;
+  padding: 20px 150px;
+  border-top: #efefef 3px solid;
+}
+.user-detail-avatar-image{
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+.user-detail-info{
+  /* margin: 20px 50px;
+  padding: 30px 20px; */
+  margin-left: 100px;
+}

@@ -1,0 +1,36 @@
+.nav {
+  background-color: #fe7777; /* Same background color as footer */
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Logo on left, nav items on right */
+  align-items: center; /* Vertically center items */
+  display: flex;
+  border-radius: 5px;
+}
+
+.nav h1 {
+  margin: 0;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 100px;
+}
+
+.nav li {
+  display: inline-block; /* Maintain previous item alignment */
+  margin: 0 10px;
+
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ffcc00; /* Same hover color as footer */
+}
