@@ -5,6 +5,11 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+.touch{
+  background-image: url('https://cdn3d.iconscout.com/3d/premium/thumb/boy-student-studying-on-desk-6495039-5385954.png?f=webp');
+  background-repeat: no-repeat;
+
+}
 .sub h1{
   font-size: 35px;
   max-width: 100%;
@@ -19,10 +24,12 @@
   justify-content: flex-end;
   align-items: flex-end;
   display: flex;
+
 }
 .card{
   max-width: 25%;
   margin-left: 15px;
+
 }
 .card-last{
   /* justify-content: flex-end; */

@@ -1,3 +1,15 @@
+.container{
+  height: 334px;
+  background-image: url('https://cdn3d.iconscout.com/3d/premium/thumb/boy-student-studying-on-desk-6495039-5385954.png?f=webp');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 134px;
+}
+.row{
+  align-items: center;
+}
 .container h2{
   text-align: center;
   font-family: 'Courier New', Courier, monospace;

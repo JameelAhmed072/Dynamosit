@@ -24,6 +24,7 @@ import { Section2Component } from './components/home/section-2/section-2.compone
 import { Section3Component } from './components/home/section-3/section-3.component';
 import { Section4Component } from './components/home/section-4/section-4.component';
 import { DividerModule } from 'primeng/divider';
+import { BackgroundVideoComponent } from './components/background-video/background-video.component';
 
 
 
@@ -40,7 +41,8 @@ import { DividerModule } from 'primeng/divider';
     Section1Component,
     Section2Component,
     Section3Component,
-    Section4Component
+    Section4Component,
+    BackgroundVideoComponent
   ],
   imports: [
     BrowserModule,
