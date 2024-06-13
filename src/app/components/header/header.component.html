@@ -1,6 +1,12 @@
 <nav class="nav">
   <h1><img src="https://dynamosit.com/wp-content/uploads/2023/12/Screenshot-2023-12-16-122235-300x40.png" alt=""></h1>
-  <div>
+  <button class="hamburger" (click)="toggleMenu()">
+
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="content" [ngClass]="{'open': isMenuOpen}">
     <ul>
       <li><a routerLink="">Home</a></li>
       <li><a routerLink="/businesses">Business Consulting</a></li>

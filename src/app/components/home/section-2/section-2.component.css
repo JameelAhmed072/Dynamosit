@@ -6,17 +6,61 @@
   font-size: 40px;
   font-family: Open Sans;
 }
-
-
-.cards {
+.container {
+  height: 600px;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; /* Adjust alignment as needed */
-  margin-left: 80px;
+  flex-wrap: wrap; /* Allows cards to wrap to the next row if necessary */
+  justify-content: space-between;
+  padding: 20px; /* Optional: Add padding to container */
+}
+
+.card-container {
+  width: 350px;
+  height: 350px;
+  align-items: center;
+  border-top: 2px solid black;
+  margin-bottom: 20px; /* Add margin to create space between cards vertically */
+  box-shadow: 0 4px 8px rgba(0.2, 0, 0, 0.2);
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  padding: 70px; /* Adjust padding inside card if needed */
+}
+
+.card h3 {
+  color: brown;
+  text-align: center;
+}
+
+.card p {
+  color: rgb(201, 97, 97);
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (max-width: 1034px){
+  .sec-quote{
+    font-size: 55px;
+    margin-right: 20px;
+  }
+  .container{
+    margin-bottom: 550px;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 }
-.card-container {
-  flex: 0 0 calc(33.33% - 1px); /* Adjust width to fit 3 cards with margin */
-  margin-bottom: 20px; /* Optional margin between rows */
+@media (max-width: 550px){
+  .sec-quote{
+    font-size: 45px;
+  }
+
 }
 

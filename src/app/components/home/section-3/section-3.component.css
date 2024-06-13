@@ -1,23 +1,109 @@
 .container{
-  height: 334px;
-  background-image: url('https://cdn3d.iconscout.com/3d/premium/thumb/boy-student-studying-on-desk-6495039-5385954.png?f=webp');
-  background-repeat: no-repeat;
+  height: 550px;
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: row;
   margin-bottom: 134px;
 }
-.row{
-  align-items: center;
+.image{
+  width: 450px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: relative;
+  left: 1px;
 }
-.container h2{
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-}
-.container p{
-  width: 40%;
-  margin: 0 auto; /* This centers the element horizontally */
-  text-align: center; /* This centers the text within the element */
-  margin-bottom: 25px;
+.image img{
+  height: 500px;
+  width: 500px;
 }
 
+.row{
+  margin-left: 10px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.row h2{
+  font-size: 45px;
+  color: #fe7777;
+}
+.row p{
+  font-size: 15px;
+  text-align: center;
+  max-width: 60%;
+  color: #fe7777;
+}
+
+
+@media (max-width: 1150px){
+
+  .row h2{
+    text-align: center;
+    font-size: 25px;
+  }
+  .row{
+    width: 250px;
+  }
+  .image{
+    width: 450px;
+  }
+}
+
+
+@media (max-width: 850px){
+
+  .row h2{
+    font-size: 15px;
+    text-align: center;
+  }
+  .row p{
+    font-size: 15px;
+    text-align: center;
+    max-width: 90%;
+  }
+  .image img{
+    height: 400px;
+    width: 400px;
+  }
+  .row{
+    width: 500px;
+
+  }
+  .image{
+    width: 450px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 705px){
+
+  .image{
+    width: 200px;
+  }
+  .image img{
+    margin-top: 150px;
+    width: 180px;
+    height: 180px;
+  }
+  .row{
+    width: 500px;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px){
+
+  .image{
+    width: 200px;
+  }
+  .image img{
+    margin-top: 150px;
+    width: 180px;
+    height: 180px;
+  }
+  .row{
+    width: 500px;
+  }
+}

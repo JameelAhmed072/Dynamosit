@@ -2,6 +2,8 @@
   text-align: center;
   margin-top: 50px;
   margin-bottom: 250px;
+  overflow: hidden;
+  z-index: 0;
 }
 
 .quote{
@@ -11,11 +13,30 @@
   margin: 0 auto;
   margin-bottom: 15px;
   font-family: Seymour One;
-
+  color: white;
 }
 .view-services p{
   width: 40%;
   margin: 0 auto; /* This centers the element horizontally */
   text-align: center; /* This centers the text within the element */
   margin-bottom: 25px;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+  z-index: -1; /* Keeps it behind the content but above the video */
+}
+
+@media (max-width: 450px){
+  .first h1{
+    font-size: 20px;
+  }
+  .view-services p{
+    font-size: 14px;
+  }
 }

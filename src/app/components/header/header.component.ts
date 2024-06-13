@@ -11,9 +11,13 @@ export class HeaderComponent implements OnInit{
   sellerName: string = '';
   userName: string = '';
   cartItems = 0;
+  isMenuOpen: boolean = false;
   constructor(){}
 
   ngOnInit(): void {
 
+  }
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
